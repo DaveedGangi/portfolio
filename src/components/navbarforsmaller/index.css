@@ -1,0 +1,23 @@
+/* Custom Offcanvas size */
+.small-offcanvas .offcanvas {
+    width: 300px !important;  /* Ensure this width applies even when Bootstrap's CSS is applied */
+    max-width: 300px !important; /* Ensure it doesn't exceed this width */
+    height: auto !important; /* If height is an issue, restrict this */
+    max-height: 100vh !important; /* Make sure it doesn't exceed full viewport height */
+  }
+  
+  /* Optional: You can set custom padding and background if needed */
+  .small-offcanvas .offcanvas-body {
+    padding: 15px;
+  }
+
+  
+
+  /* Specifically target the right-side Offcanvas */
+.small-offcanvas .offcanvas-end {
+    width: 300px !important;
+    max-width: 300px !important;
+    height: auto !important;
+    max-height: 100vh !important;
+  }
+  

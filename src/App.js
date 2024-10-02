@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import {Component} from "react"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import {Route,Switch} from "react-router-dom"
+
+import Home from "./components/home"
+
+import Work from "./components/work"
+
+import  "./App.css"
+
+class App extends Component {
+    render() {
+        return (
+            <div>
+               
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/work" component={Work} />
+            </Switch>
+
+            <footer className="footer">
+  <div className="footer-content">
+    <p>&copy; {new Date().getFullYear()} All rights reserved by Daveed.</p>
+    <br/>
+    <div className="footer-links">
+      <a href="https://www.linkedin.com/in/g-daveed-365958190/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+      <a href="https://x.com/Daveed53460412" target="_blank" rel="noopener noreferrer">
+        Twitter
+      </a>
+      <a href="https://github.com/DaveedGangi" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
+      <a href="https://wa.me/9573230254" target="_blank" rel="noopener noreferrer">
+        WhatsApp
+      </a>
+      <a href="tel:+919573230254">
+        +919573230254
+      </a>
     </div>
-  );
+  </div>
+</footer>
+
+
+            </div>
+        )
+    }
 }
 
-export default App;
+export default App

@@ -28,11 +28,112 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width:300px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #282828;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; /* Add space between links */
+}
+
+.footer-links a {
+  color: #00aced; /* Twitter color */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #1da1f2; /* Lighter hover color for links */
+}
+
+.footer-links a:last-child {
+  color: #ccc;
+}
+
+.footer-links a:last-child:hover {
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-content {
+    padding: 0 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .footer-links {
+    flex-direction: column; /* Stack the links vertically */
+    gap: 10px;
+  }
+
+  .footer-links a {
+    margin: 5px 0; /* Adjust margin for vertical layout */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content p {
+    font-size: 12px;
+  }
+
+  .footer-links a {
+    font-size: 14px;
   }
 }
