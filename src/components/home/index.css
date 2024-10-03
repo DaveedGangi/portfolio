@@ -147,20 +147,7 @@ body, html {
   display: none;
 }
 
-.hamberg-menu{
-  background-color: #333;
-  color: #000;
-  cursor: pointer;
-  border:none;
-  background-color: transparent;
-}
 
-.hamberg-menu:hover{
-  background-color: #f39c12;
-  color: #fff;
-  border:none;
-  background-color: transparent;
-}
 
 
 
@@ -170,6 +157,23 @@ body, html {
 
 .showItems{
   display:none;
+}
+
+.hamberg-menu-on{
+
+  color: #000;
+  cursor: pointer;
+  border:none;
+  background-color: transparent;
+  outline: none;
+
+}
+.hamberg-menu-off{
+  color: #fff;
+  border:none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
 }
 
 @media (max-width: 768px) {
@@ -185,6 +189,7 @@ body, html {
   padding: 10px 15px;
   background-color: #333;
   color: white;
+  font-size:18px;
 
   }
   .showItems{

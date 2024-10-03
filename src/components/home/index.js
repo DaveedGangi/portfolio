@@ -72,7 +72,7 @@ class Home extends Component {
             Daveed
            </div>
            <div>
-            <button onClick={this.show} className="hamberg-menu" type="button">
+            <button onClick={this.show} className={showingItems?"hamberg-menu-off":"hamberg-menu-on"}  type="button">
             <IoMenu size={33} />
             </button>
            </div>
@@ -90,7 +90,7 @@ class Home extends Component {
                 Contact
              </ScrollLink>
             
-               <Link to="/work">My Projects</Link>
+               
             
            </div>
 

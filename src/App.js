@@ -19,11 +19,11 @@ class App extends Component {
             </Switch>
 
             <footer className="footer">
-  <div className="footer-content">
+              <div className="footer-content">
     <p>&copy; {new Date().getFullYear()} All rights reserved by Daveed.</p>
     <br/>
     <div className="footer-links">
-      <a href="https://www.linkedin.com/in/g-daveed-365958190/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/g-daveed-365958190/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
         LinkedIn
       </a>
       <a href="https://x.com/Daveed53460412" target="_blank" rel="noopener noreferrer">
@@ -39,8 +39,8 @@ class App extends Component {
         +919573230254
       </a>
     </div>
-  </div>
-</footer>
+              </div>
+            </footer>
 
 
             </div>

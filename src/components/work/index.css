@@ -16,8 +16,10 @@ body {
     color: #fff;
   }
   
-  .nav-bar-for-work div {
+  .nav-bar-for-work div:first-child {
     font-size: 24px;
+    font-weight: bold;
+   
   }
   
   .nav-bar-for-work a {
@@ -103,4 +105,11 @@ body {
     
     padding:17px;
     padding-bottom: 63px;
+  
+  }
+
+  @media (max-width: 768px) {
+    .nav-bar-for-work div:first-child {
+      font-size: 18px !important;
+    }
   }

@@ -4,9 +4,10 @@ import "./index.css";
 
 export const ContactUs = () => {
   const form = useRef();
-  const [message, setMessage] = useState('');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [formFeedback, setFormFeedback] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,16 +18,17 @@ export const ContactUs = () => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
           setName('');
           setEmail('');
-          setMessage('Message sent successfully!');
+          setMessage('');
+          setFormFeedback('Message sent successfully!');
           setTimeout(() => {
-            setMessage('');
+            setFormFeedback(''); // Clear feedback after 3 seconds
           }, 3000);
         },
         (error) => {
           console.log('FAILED...', error.text);
+          setFormFeedback('Failed to send message. Please try again.');
         }
       );
   };
@@ -36,14 +38,15 @@ export const ContactUs = () => {
       <h2 className="contact-me-heading">Contact Me</h2>
       <form className="contact" ref={form} onSubmit={sendEmail}>
         <div className="form-group">
-          <div>Name</div>
+          <label htmlFor="name">Name</label>
           <div>
             <input
+              id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
               className="user-name"
-              placeholder="Enter your name.."
+              placeholder="Enter your name..."
               type="text"
               name="user_name"
             />
@@ -51,14 +54,15 @@ export const ContactUs = () => {
         </div>
 
         <div className="form-group">
-          <div>Email</div>
+          <label htmlFor="email">Email</label>
           <div>
             <input
+              id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
               className="user-email"
-              placeholder="Enter your email.."
+              placeholder="Enter your email..."
               type="email"
               name="user_email"
             />
@@ -66,9 +70,10 @@ export const ContactUs = () => {
         </div>
 
         <div className="form-group">
-          <div>Message</div>
+          <label htmlFor="message">Message</label>
           <div>
             <textarea
+              id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
@@ -84,8 +89,8 @@ export const ContactUs = () => {
         </div>
       </form>
 
-      {/* Success Message */}
-      {message && <div className="message">{message}</div>}
+      {/* Success or Error Message */}
+      {formFeedback && <div className="form-feedback">{formFeedback}</div>}
     </div>
   );
 };

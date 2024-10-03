@@ -15,7 +15,7 @@ class Work extends Component {
         </div>
         <h2>My Projects</h2>
         <p className="work-para">
-        "Welcome to my portfolio! Below is a collection of projects that showcase my skills in web development, ranging from dynamic web applications to engaging user interfaces. Each project reflects my passion for creating efficient, scalable, and visually appealing solutions. I've employed various tools and technologies, including React, third-party packages, and API integrations, to deliver interactive and functional user experiences. Feel free to explore the projects by clicking the links, and don’t hesitate to reach out if you'd like to learn more about my work!"
+        "Welcome to my portfolio! Below is a collection of projects that showcase my skills in web development, ranging from dynamic web applications to engaging user interfaces. Each project reflects my passion for creating efficient, scalable, and visually appealing solutions.<br/><br/> I've employed various tools and technologies, including React, third-party packages, and API integrations, to deliver interactive and functional user experiences. Feel free to explore the projects by clicking the links, and don’t hesitate to reach out if you'd like to learn more about my work!"
         </p>
 
         <div className="work-container">
