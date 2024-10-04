@@ -21,6 +21,24 @@ class Work extends Component {
         <div className="work-container">
 
         <div className="card">
+                    <img className="card-img-top" src="https://i.ibb.co/1vRBsYC/Screenshot-2024-10-04-115254.png" alt="not-found"/>
+                    <div className="card-body">
+                        <h5 className="card-title">CareerLaunch</h5>
+                        <p className="card-text">"CareerLaunch is a job exploration platform where users can discover and bookmark jobs of interest with ease. Upon clicking on job listings, users have the option to save them for later reference using local storage, ensuring that their bookmarked jobs persist even across sessions. This feature provides a seamless and intuitive job search experience, tailored for convenience and efficiency." </p>
+                        <a href="https://jobsandbookmarksdaveedgangi.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go CareerLaunch <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+            </div>
+
+        <div className="card">
+                    <img className="card-img-top" src="https://i.ibb.co/qnwXWn6/Screenshot-2024-10-04-114716.png" alt="not-found"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Chatbot</h5>
+                        <p className="card-text">"I've created a dynamic chatbot using Google Dialogflow, designed to engage users with conversational intelligence. The chatbot includes a small talk feature that allows it to respond naturally to casual conversations. It can handle greetings, basic questions, and polite interactions, making the user experience more engaging and personable." </p>
+                        <a href="https://chatbotdaveed.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Chatbot <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+            </div>
+
+        <div className="card">
                     <img className="card-img-top" src="https://i.ibb.co/vYnn2VX/Screenshot-2024-10-02-230711.png" alt="not-found"/>
                     <div className="card-body">
                         <h5 className="card-title">BreezeCast App</h5>
@@ -58,6 +76,17 @@ Non-Prime User credentials
 username: raja
 password: raja@2021.  </p>
                         <a href="https://daveednextt.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Nxt Trendz <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+            </div>
+
+
+            <div className="card">
+                    <img className="card-img-top" src="https://i.ibb.co/9nH6wsW/Screenshot-2024-10-04-120903.png" alt="not-found"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Jobby App</h5>
+                        <p className="card-text">"Jobby App is a comprehensive job exploration platform where users can search through a wide variety of job listings and view detailed company information with just a click. The intuitive interface allows for easy navigation, making job hunting efficient and straightforward. Users can log in using the provided credentials (username: rahul, password: rahul@2021) to access job details and explore opportunities tailored to their interests."
+ </p>
+                        <a href="https://daveedjobby.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Jobby App <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
