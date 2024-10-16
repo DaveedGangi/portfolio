@@ -1,0 +1,87 @@
+.initial-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    z-index: 9999;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 20px;
+    transition: opacity 0.5s ease; /* Fade effect for opacity */
+  }
+  
+  .welcome-text {
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 25px 40px;
+    border: 4px solid rgba(0, 255, 170, 0.5);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 255, 170, 0.6);
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: slideIn 1s ease-out forwards, pulse 1.5s infinite alternate;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Keyframe animations */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0); /* Center in position */
+    }
+    100% {
+      transform: translateX(0); /* Final state, centered */
+    }
+  }
+  
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0); /* Start at the center */
+    }
+    100% {
+      opacity: 0; /* Fade out */
+      transform: translateX(100%); /* Move off-screen to the right */
+    }
+  }
+  
+  /* Slide-out class */
+  .slide-out {
+    animation: slideOut 1s ease forwards; /* Apply the slide-out animation */
+  }
+  
+  /* Other styles remain unchanged... */
+  
+  @media (max-width: 768px) {
+    .welcome-text {
+      font-size: 2.5rem;
+      padding: 20px 30px;
+      border-radius: 12px;
+      max-width: 95%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .welcome-text {
+      font-size: 1.8rem;
+      padding: 15px 20px;
+      border-radius: 10px;
+      max-width: 95%;
+    }
+  }
+  
