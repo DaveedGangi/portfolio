@@ -21,6 +21,16 @@ class Work extends Component {
         <div className="work-container">
 
         <div className="card">
+                    <img className="card-img-top" src="https://i.ibb.co/tp5tZT5D/Screenshot-2025-02-14-182419.png" alt="not-found"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Simple Calculator</h5>
+                        <p className="card-text">The Simple Calculator App is designed to provide users with an easy-to-use tool for performing basic arithmetic operations. Whether you need to add, subtract, multiply, or divide, this app offers a straightforward interface to handle all your basic mathematical needs. </p>
+                        <a href="https://daveedsimplecalculator.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Simple Calculator<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+            </div>
+
+
+        <div className="card">
                     <img className="card-img-top" src="https://i.ibb.co/1vRBsYC/Screenshot-2024-10-04-115254.png" alt="not-found"/>
                     <div className="card-body">
                         <h5 className="card-title">CareerLaunch</h5>
