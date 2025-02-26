@@ -25,7 +25,7 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">Todo App</h5>
                         <p className="card-text">To-Do App allows you to efficiently manage your tasks with ease.All task data is stored locally on your device, ensuring your information is always accessible and secure. Stay organized and boost your productivity with user-friendly To-Do App. </p>
-                        <a href="https://todoappreactdaveed.onrender.com" target="_blank" rel="noreferrer" class="btn btn-primary">Go Simple Calculator<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://todoappreactdaveed.onrender.com" target="_blank" rel="noreferrer" class="btn btn-primary">Go Todo App<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
