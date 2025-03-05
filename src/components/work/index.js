@@ -21,7 +21,7 @@ class Work extends Component {
         <div className="work-container">
 
         <div className="card">
-                    <img className="card-img-top" src="https://imgbb.io/ib/cwmCgey9QB6cW5h_1740560091.png" alt="not-found"/>
+                    <img className="card-img-top" src="https://i.ibb.co/qLmRZ5gW/Screenshot-2025-02-26-142335.png" alt="not-found"/>
                     <div className="card-body">
                         <h5 className="card-title">Todo App</h5>
                         <p className="card-text">To-Do App allows you to efficiently manage your tasks with ease.All task data is stored locally on your device, ensuring your information is always accessible and secure. Stay organized and boost your productivity with user-friendly To-Do App. </p>
