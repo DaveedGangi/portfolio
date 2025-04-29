@@ -41,6 +41,11 @@ const Skills = () => {
           <i className="fas fa-database"></i>
           <p>SQL</p>
         </div>
+        <div className="skill-item">
+          <i className="fab fa-envira"></i> {/* closest MongoDB-looking icon (leaf) */}
+          <p>MongoDB</p>
+        </div>
+
       </div>
     </div>
   );

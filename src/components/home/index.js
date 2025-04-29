@@ -17,6 +17,7 @@ import { ReactTyped } from "react-typed";
 import Skills from "../skills";
 
 import groovyWalkAnimation from "./groovyWalk.json";
+
 import "./index.css";
 
 const DefaultIcon = L.icon({
@@ -164,9 +165,20 @@ Let’s create something great together!
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           <Marker position={[lat, lon]}>
-            <Popup>A sample popup</Popup>
+          <Popup>Daveed is here — let's build something awesome!</Popup>
           </Marker>
         </MapContainer>
+
+
+
+
+
+
+
+
+
+
+
 
         {/* Contact Section */}
         <section id="contact" style={{ height: "100vh", background: "lightyellow" }}>
@@ -175,6 +187,8 @@ Let’s create something great together!
 
 
 
+
+  
 
 
 
