@@ -20,6 +20,17 @@ class Work extends Component {
 
         <div className="work-container">
 
+
+        <div className="card">
+                    <img className="card-img-top" src="https://i.ibb.co/0phZpZSx/Screenshot-2025-04-30-203828.png" alt="not-found"/>
+                    <div className="card-body">
+                        <h5 className="card-title">WordFlow App</h5>
+                        <p className="card-text">WordFlow is a full-stack blog application where users can sign up, create posts with images and content, view detailed posts, comment, and manage their own posts from a profile section. </p>
+                        <a href="https://wordflowappdaveedgangi.netlify.app" target="_blank" rel="noreferrer" class="btn btn-primary">Go WordFlow App<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+            </div>
+
+
         <div className="card">
                     <img className="card-img-top" src="https://i.ibb.co/pjK4hMSr/Screenshot-2025-03-07-105159.png" alt="not-found"/>
                     <div className="card-body">
