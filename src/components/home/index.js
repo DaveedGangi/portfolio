@@ -18,6 +18,8 @@ import Skills from "../skills";
 
 import groovyWalkAnimation from "./groovyWalk.json";
 
+import Quote from "../quote";
+
 import "./index.css";
 
 const DefaultIcon = L.icon({
@@ -187,7 +189,11 @@ Let’s create something great together!
 
 
 
+      {/* quote section */}
 
+      <div className="quote-bg">
+      <Quote/>
+      </div>
   
 
 

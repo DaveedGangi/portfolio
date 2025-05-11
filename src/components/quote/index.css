@@ -1,0 +1,17 @@
+.quote-image {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 2px solid #eee;
+  transition: transform 0.3s ease;
+ 
+ 
+
+}
+
+.quote-image:hover {
+  transform: scale(1.02);
+}
