@@ -22,6 +22,20 @@ class Work extends Component {
 
 
         <div className="card">
+    <img className="card-img-top" src="https://i.ibb.co/r25C2GFQ/Screenshot-2025-07-16-122208.png" alt="Personal Finance Tracker" />
+    <div className="card-body">
+        <h5 className="card-title">FinanceTracker App</h5>
+        <p className="card-text">
+            FinanceTracker is a personal finance management app that helps users track their income, expenses. Users can view spending categories, and analyze financial reports to stay in control of their money.
+        </p>
+        <a href="https://personal-finance-tracker-daveed.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-success">
+            Go FinanceTracker App <i className="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</div>
+
+
+        <div className="card">
                     <img className="card-img-top" src="https://i.ibb.co/0phZpZSx/Screenshot-2025-04-30-203828.png" alt="not-found"/>
                     <div className="card-body">
                         <h5 className="card-title">WordFlow App</h5>

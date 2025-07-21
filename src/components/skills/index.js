@@ -3,51 +3,38 @@ import './index.css';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+ const skills = [
+    { name: "HTML", icon: "fab fa-html5", link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+    { name: "CSS", icon: "fab fa-css3-alt", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+    { name: "Bootstrap", icon: "fab fa-bootstrap", link: "https://getbootstrap.com/docs/" },
+    { name: "JavaScript", icon: "fab fa-js", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { name: "React", icon: "fab fa-react", link: "https://reactjs.org/docs/getting-started.html" },
+    { name: "Node.js", icon: "fab fa-node", link: "https://nodejs.org/en/docs" },
+    { name: "Python", icon: "fab fa-python", link: "https://docs.python.org/3/" },
+    { name: "SQL", icon: "fas fa-database", link: "https://www.w3schools.com/sql/" },
+    { name: "MongoDB", icon: "fab fa-envira", link: "https://www.mongodb.com/docs/" }
+  ];
 
 const Skills = () => {
   return (
-    <div className="skills-section">
-    
+  
+      <div className="skills-section">
       <div className="skills-container">
-        <div className="skill-item">
-          <i className="fab fa-html5"></i>
-          <p>HTML</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-css3-alt"></i>
-          <p>CSS</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-bootstrap"></i>
-          <p>Bootstrap</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-js"></i>
-          <p>JavaScript</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-react"></i>
-          <p>React</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-node"></i>
-          <p>Node.js</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-python"></i>
-          <p>Python</p>
-        </div>
-        <div className="skill-item">
-          <i className="fas fa-database"></i>
-          <p>SQL</p>
-        </div>
-        <div className="skill-item">
-          <i className="fab fa-envira"></i> {/* closest MongoDB-looking icon (leaf) */}
-          <p>MongoDB</p>
-        </div>
-
+        {skills.map((skill, index) => (
+          <div 
+            key={index} 
+            className="skill-item"
+            title={`Learn more about ${skill.name}`}
+            onClick={() => window.open(skill.link, '_blank')}
+          >
+            <i className={skill.icon}></i>
+            <p>{skill.name}</p>
+          </div>
+        ))}
       </div>
     </div>
+
+   
   );
 };
 
