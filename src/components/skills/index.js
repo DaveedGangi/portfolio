@@ -34,7 +34,6 @@ const Skills = () => {
       </div>
     </div>
 
-   
   );
 };
 
