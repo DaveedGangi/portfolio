@@ -28,11 +28,41 @@ class Work extends Component {
         <p className="card-text">
             FinanceTracker is a personal finance management app that helps users track their income, expenses. Users can view spending categories, and analyze financial reports to stay in control of their money.
         </p>
+           <div className="github-links">
+                <a
+                    href="https://github.com/DaveedGangi/personalfinancetrackerfrontend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="github-link"
+                >
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+                    Frontend
+                </a>
+                <a
+                    href="https://github.com/DaveedGangi/personalfinancetrackerbackend.git"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="github-link"
+                >
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Backend GitHub" className="github-icon" />
+                    Backend
+                </a>
+            </div>
+
         <a href="https://personal-finance-tracker-daveed.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-success">
             Go FinanceTracker App <i className="fa-solid fa-arrow-right"></i>
         </a>
+
+
+
+     
+
     </div>
 </div>
+
+
+
+
 
 
         <div className="card">
@@ -40,7 +70,28 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">WordFlow App</h5>
                         <p className="card-text">WordFlow is a full-stack blog application where users can sign up, create posts with images and content, view detailed posts, comment, and manage their own posts from a profile section. </p>
-                        <a href="https://wordflowappdaveedgangi.netlify.app" target="_blank" rel="noreferrer" class="btn btn-primary">Go WordFlow App<i class="fa-solid fa-arrow-right"></i></a>
+                            <div className="github-links">
+                                <a
+                                    href="https://github.com/DaveedGangi/wordflowfrontend.git"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="github-link"
+                                >
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+                                    Frontend
+                                </a>
+                                <a
+                                    href="https://github.com/DaveedGangi/wordflowbackend.git"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="github-link"
+                                >
+                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Backend GitHub" className="github-icon" />
+                                    Backend
+                                </a>
+                            </div>             
+                        <a href="https://wordflowappdaveedgangi.netlify.app" target="_blank" rel="noreferrer" className="btn btn-primary">Go WordFlow App<i className="fa-solid fa-arrow-right"></i></a>
+                   
                     </div>
             </div>
 
@@ -50,7 +101,20 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">Todo App</h5>
                         <p className="card-text">To-Do App allows you to efficiently manage your tasks with ease.All task data is stored locally on your device, ensuring your information is always accessible and secure. Stay organized and boost your productivity with user-friendly To-Do App. </p>
-                        <a href="https://todoappreactdaveed.onrender.com" target="_blank" rel="noreferrer" class="btn btn-primary">Go Todo App<i class="fa-solid fa-arrow-right"></i></a>
+                        <div className="github-links">
+  <a
+    href="https://github.com/DaveedGangi/TodoAppReact.git"
+    target="_blank"
+    rel="noreferrer"
+    className="github-link"
+    title="View Frontend Code"
+  >
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+    Frontend
+  </a>
+</div>
+
+                        <a href="https://todoappreactdaveed.onrender.com" target="_blank" rel="noreferrer" className="btn btn-primary">Go Todo App<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -59,7 +123,19 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">Simple Calculator</h5>
                         <p className="card-text">The Simple Calculator App is designed to provide users with an easy-to-use tool for performing basic arithmetic operations. Whether you need to add, subtract, multiply, or divide, this app offers a straightforward interface to handle all your basic mathematical needs. </p>
-                        <a href="https://daveedsimplecalculator.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Simple Calculator<i class="fa-solid fa-arrow-right"></i></a>
+                                             <div className="github-links">
+  <a
+    href="https://github.com/DaveedGangi/simplecalculator.git"
+    target="_blank"
+    rel="noreferrer"
+    className="github-link"
+    title="View Frontend Code"
+  >
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+    Frontend
+  </a>
+</div>
+                        <a href="https://daveedsimplecalculator.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Simple Calculator<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -69,7 +145,19 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">CareerLaunch</h5>
                         <p className="card-text">"CareerLaunch is a job exploration platform where users can discover and bookmark jobs of interest with ease. Upon clicking on job listings, users have the option to save them for later reference using local storage, ensuring that their bookmarked jobs persist even across sessions. This feature provides a seamless and intuitive job search experience, tailored for convenience and efficiency." </p>
-                        <a href="https://jobsandbookmarksdaveedgangi.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go CareerLaunch <i class="fa-solid fa-arrow-right"></i></a>
+                        <div className="github-links">
+                            <a
+                                href="https://github.com/DaveedGangi/jobsAndBookMarks.git"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="github-link"
+                                title="View Frontend Code"
+                            >
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+                                Frontend
+                            </a>
+                        </div>
+                        <a href="https://jobsandbookmarksdaveedgangi.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Go CareerLaunch <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -78,7 +166,7 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">Chatbot</h5>
                         <p className="card-text">"I've created a dynamic chatbot using Google Dialogflow, designed to engage users with conversational intelligence. The chatbot includes a small talk feature that allows it to respond naturally to casual conversations. It can handle greetings, basic questions, and polite interactions, making the user experience more engaging and personable." </p>
-                        <a href="https://chatbotdaveed.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Chatbot <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://chatbotdaveed.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Chatbot <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -87,7 +175,19 @@ class Work extends Component {
                     <div className="card-body">
                         <h5 className="card-title">BreezeCast App</h5>
                         <p className="card-text">BreezeCast is a weather application designed to provide real-time weather information for cities around the world. With a clean, user-friendly interface, BreezeCast allows users to easily search for and view detailed weather conditions including temperature, humidity, wind speed, and more. The app is built using modern web technologies to ensure a seamless and responsive experience across devices.  </p>
-                        <a href="https://weatherappdaveed.netlify.app/" target="_blank" rel="noreferrer" class="btn btn-primary">Go BreezeCast App <i class="fa-solid fa-arrow-right"></i></a>
+                        <div className="github-links">
+                            <a
+                                href="https://github.com/DaveedGangi/weatherappDaveed.git"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="github-link"
+                                title="View Frontend Code"
+                            >
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+                                Frontend
+                            </a>
+                        </div>
+                        <a href="https://weatherappdaveed.netlify.app/" target="_blank" rel="noreferrer" className="btn btn-primary">Go BreezeCast App <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -97,7 +197,7 @@ class Work extends Component {
                         <h5 className="card-title">Prime Video</h5>
                         <p className="card-text">I developed a simple application for Prime Video using React.I used some third-party packages to enhance the functionality and appearance of the application, such as react-player, react-slick and react-popup.
                         </p>
-                        <a href="https://DaveedPrimeVi.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go Prime Video <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedPrimeVi.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go Prime Video <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -108,18 +208,30 @@ class Work extends Component {
                         <h5 className="card-title">Nxt Trendz</h5>
                         <p className="card-text">I built a web app called Nxt Trendz using React. The app also has authentication features.
 
-To test the app, you can use these credentials:
+                        To test the app, you can use these credentials:
 
-Prime User credentials
+                        Prime User credentials
 
-username: rahul
-password: rahul@2021
+                        username: rahul
+                        password: rahul@2021
 
-Non-Prime User credentials
+                        Non-Prime User credentials
 
-username: raja
-password: raja@2021.  </p>
-                        <a href="https://daveednextt.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Nxt Trendz <i class="fa-solid fa-arrow-right"></i></a>
+                        username: raja
+                        password: raja@2021.  </p>
+                        <div className="github-links">
+                            <a
+                                href="https://github.com/DaveedGangi/NxtTrendzApp.git"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="github-link"
+                                title="View Frontend Code"
+                            >
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+                                Frontend
+                            </a>
+                        </div>
+                        <a href="https://daveednextt.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Nxt Trendz <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -130,7 +242,28 @@ password: raja@2021.  </p>
                         <h5 className="card-title">Jobby App</h5>
                         <p className="card-text">"Jobby App is a comprehensive job exploration platform where users can search through a wide variety of job listings and view detailed company information with just a click. The intuitive interface allows for easy navigation, making job hunting efficient and straightforward. Users can log in using the provided credentials (username: rahul, password: rahul@2021) to access job details and explore opportunities tailored to their interests."
  </p>
-                        <a href="https://daveedjobby.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Jobby App <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedjobby.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Jobby App <i className="fa-solid fa-arrow-right"></i></a>
+                    </div>
+            </div>
+
+             <div className="card">
+                    <img className="card-img-top" src="https://i.ibb.co/yFp90Fpd/Screenshot-2025-07-26-120925.png" alt="not-found"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Movie Explorer</h5>
+                        <p className="card-text">Developed a movie browsing application with login functionality (Demo: username: rahul | password: rahul@2021). After authentication, users can explore and search for movies using third-party APIs. Implemented pagination for better navigation and optimized API data handling for performance. The app features a clean UI with dynamic content rendering based on login state. </p>
+                        <div className="github-links">
+                            <a
+                                href="https://github.com/DaveedGangi/movies.git"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="github-link"
+                                title="View Frontend Code"
+                            >
+                                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Frontend GitHub" className="github-icon" />
+                                Frontend
+                            </a>
+                        </div>
+                        <a href="https://daveedmoviesapp.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Nxt Trendz <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -139,7 +272,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Github Popular Repos</h5>
                         <p className="card-text">This project is a web application that allows users to browse and view the most popular repositories on Github based on the selected programming language and a brief description of the repository. </p>
-                        <a href="https://daveedpopularre.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Github Popular Repos <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedpopularre.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Github Popular Repos <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -150,7 +283,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Events App</h5>
                         <p className="card-text">Events is the ultimate app for finding and booking the best events near you. Whether you are looking for concerts, festivals, sports, comedy, theater, or anything else, Events has you covered. </p>
-                        <a href="https://daveedevents.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Events App <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedevents.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Events App <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -161,7 +294,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Stopwatch </h5>
                         <p className="card-text">Stopwatch is a simple and elegant app that lets you track time with ease. Whether you need to measure your workouts, cooking, studying, or any other activity, Stopwatch has you covered. </p>
-                        <a href="https://daveedstopwatch.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Stopwatch<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedstopwatch.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Stopwatch<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -171,7 +304,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">IPL Dashboard App</h5>
                         <p className="card-text">The IPL dashboard is a web application that provides insights and analytics on the Indian Premier League (IPL), a professional cricket league in India. </p>
-                        <a href="https://daveedipldashbo.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go IPL Dashboard App<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedipldashbo.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go IPL Dashboard App<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -181,7 +314,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Fetch and Routing</h5>
                         <p className="card-text">Fetch and routing are two important concepts in web development. Fetch refers to the process of sending requests to a server and receiving responses. </p>
-                        <a href="https://daveedfetchrou.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Fetch and Routing<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedfetchrou.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Fetch and Routing<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -191,7 +324,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Blog List</h5>
                         <p className="card-text">Here you will find a list of my latest posts on various topics You can browse the list by clicking on the Home tab at the top of the page.</p>
-                        <a href="https://daveedbloglist.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Blog List<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedbloglist.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Blog List<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -200,7 +333,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Match Game</h5>
                         <p className="card-text">Match Game is a fun and challenging game where you have to click on the top image that matches one of the images below. </p>
-                        <a href="https://DaveedMatchGame.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go Match Game<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedMatchGame.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go Match Game<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -209,7 +342,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Password Manager App</h5>
                         <p className="card-text">A simple password manager app with React.It allows users to add, delete and show their passwords. </p>
-                        <a href="https://DaveedPasswordM.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go Password Manager<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedPasswordM.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go Password Manager<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -218,7 +351,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Emoji Game</h5>
                         <p className="card-text">The emoji game is a fun and challenging memory game.Click on different emoji you will get one pont. </p>
-                        <a href="https://DaveedEmojiGame.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go Emoji Game<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedEmojiGame.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go Emoji Game<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -227,7 +360,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Coin Toss Game</h5>
                         <p className="card-text">A coin toss game is a simple application that simulates the flipping of a coin. </p>
-                        <a href="https://DaveedCoinToss.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go Coin Toss Game<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedCoinToss.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go Coin Toss Game<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -236,7 +369,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">App Store</h5>
                         <p className="card-text">App store is a simple application that allows users to browse.Users can also search for specific apps using the search bar. </p>
-                        <a href="https://DaveedAppStore.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go App Store<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedAppStore.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go App Store<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -245,7 +378,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Comments</h5>
                         <p className="card-text">Write down the comments , delete the comments ,like the comment. </p>
-                        <a href="https://DaveedCommentAp.ccbp.tech" target="_blank" rel="noreferrer" class="btn btn-primary">Go Comments<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://DaveedCommentAp.ccbp.tech" target="_blank" rel="noreferrer" className="btn btn-primary">Go Comments<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -254,7 +387,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Todo Project</h5>
                         <p className="card-text">A todo app can also help you track your progress. A todo app can be a useful tool for personal and professional productivity. </p>
-                        <a href="https://daveedtodos.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Todo<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://daveedtodos.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Todo<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 
@@ -263,7 +396,7 @@ password: raja@2021.  </p>
                     <div className="card-body">
                         <h5 className="card-title">Travel Blog</h5>
                         <p className="card-text">If you love to explore new places and cultures, you might enjoy reading a travel blog. </p>
-                        <a href="https://gdaveedtourism.ccbp.tech/" target="_blank" rel="noreferrer" class="btn btn-primary">Go Travel Blog<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://gdaveedtourism.ccbp.tech/" target="_blank" rel="noreferrer" className="btn btn-primary">Go Travel Blog<i className="fa-solid fa-arrow-right"></i></a>
                     </div>
             </div>
 

@@ -55,6 +55,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin-top:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
   }
   
   .card:hover {
@@ -69,6 +74,8 @@ body {
   
   .card-body {
     padding: 20px;
+    
+    
   }
   
   .card-title {
@@ -108,8 +115,39 @@ body {
   
   }
 
+
+
+  .github-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
   @media (max-width: 768px) {
     .nav-bar-for-work div:first-child {
       font-size: 18px !important;
     }
+  
   }
