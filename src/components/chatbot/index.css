@@ -8,6 +8,7 @@
   position:fixed;
   z-index: 1000;
   resize: none;
+  pointer-events: none;
  
 
 }
@@ -108,6 +109,7 @@
   cursor: pointer;
 
   margin-top: 18px;
+  pointer-events: auto;
  
  
 }
@@ -117,12 +119,11 @@
 
 
 .chat-container {
-  
+  all:revert;
   width: 330px;
   opacity: 0;
   transform: translateY(20px);
   visibility: hidden;
-  transition: all 0.3s ease-in-out;
   background-color: bisque;
   border-radius: 8px;
   padding: 10px;
@@ -130,7 +131,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 
   gap: 10px;
@@ -141,6 +141,7 @@
   opacity: 1;
   transform: translateY(0);
   visibility: visible;
+  pointer-events: auto;
 }
 
 .chat-container.hide {
