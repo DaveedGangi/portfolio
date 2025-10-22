@@ -1,0 +1,152 @@
+.chatbot-bg{
+  
+  display: flex;
+  flex-direction:column;
+  bottom: 20px;
+  right: 20px;
+  align-items: flex-end;
+  position:fixed;
+  z-index: 1000;
+  resize: none;
+ 
+
+}
+
+.ai-user-text{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap:6px;
+    width:100%;
+    border:1px solid rgb(18, 11, 11);
+    height:330px;
+    overflow-y: auto;
+    padding:5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+  
+}
+
+.ai{
+
+  display: inline-block;
+  background-color: cornflowerblue;
+  color:rgb(26, 2, 26);
+  padding:7px 10px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  text-align: left;
+  max-width: 70%;
+  word-wrap: break-word;
+
+
+}
+
+.user{
+
+  display: inline-block;
+  background-color: burlywood;
+  color:brown;
+  padding:7px 10px;
+  margin:0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  align-self: flex-end;
+  max-width: 70%;
+  word-wrap: break-word;
+
+}
+
+.chatbot-textarea{
+  all:revert;
+  color:darkblue;
+  width:100%;
+  padding:8px 12px;
+  min-height: 40px;
+  max-height: 150px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: rgb(254, 253, 250);
+  resize: none;
+}
+
+
+
+.submitButton{
+ 
+  color:brown;
+  background-color: antiquewhite;
+  height:33px;
+  width:100%;
+  text-align: center;
+  border-radius: 8px;
+  border:0px;
+  margin-top: 19px;
+  cursor: pointer;
+ 
+}
+
+.chatBotImage{
+ 
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  border: 0px;
+  object-fit: contain;
+
+}
+
+.chatOpenClose{
+
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+
+  margin-top: 18px;
+ 
+ 
+}
+
+
+
+
+
+.chat-container {
+  
+  width: 330px;
+  opacity: 0;
+  transform: translateY(20px);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  background-color: bisque;
+  border-radius: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1), transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+
+  gap: 10px;
+}
+
+.chat-container.show {
+   
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.chat-container.hide {
+
+  opacity: 0;
+  transform: translateY(20px);
+  visibility: hidden;
+  pointer-events: none;
+}

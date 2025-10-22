@@ -5,6 +5,7 @@ import InitialAnimation from "./components/initial/InitialAnimation.js";
 
 import Home from "./components/home";
 import Work from "./components/work";
+import ChatBot from "./components/chatbot/index.js";
 import "./App.css";
 
 class App extends Component {
@@ -43,6 +44,7 @@ class App extends Component {
             </Switch>
 
           {/* Dialogflow Messenger Component */}
+          {/*
           <df-messenger
               chat-icon="https://img.freepik.com/free-vector/graident-ai-robot-vectorart_78370-4114.jpg?w=740&st=1718261464~exp=1718262064~hmac=ff5527dee568fee0a0bfbff2c2582f6f91e7d184c0391f70295e31d688b8705b"
               intent="WELCOME"
@@ -50,6 +52,20 @@ class App extends Component {
               agent-id="7dbc5cd0-9536-48da-bd38-7bd988282d91"
               language-code="en"
             ></df-messenger>
+
+            */}
+          
+
+          <ChatBot/>
+
+
+
+
+
+
+
+
+
 
             <footer className="footer">
               <div className="footer-content">
