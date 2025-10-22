@@ -10,13 +10,14 @@ function ChatBot() {
   const[aiUserText,setAiUserText]=useState([]);
   const chatEndRef=useRef(null);
   const [chatbotShow,setChatBotShow]=useState(false);
+  const [loading,setLoading]=useState(false);
 
   const submitUser=async(e)=>{
     e.preventDefault();
 
     setAiUserText(prev=>([...prev,{type:"user",message:text}]))
     
-
+    setLoading(true);
     const api=`${process.env.REACT_APP_BACKEND_URL}/reply`;
     const fetching=await fetch(api,{
       method:"POST",
@@ -25,9 +26,10 @@ function ChatBot() {
 
     });
     const response=await fetching.json();
-
+    setLoading(false);
     setAiUserText(prev=>[...prev,{type:"ai",message:response.aiSuggested}])
     setText("");
+    
     
   }
 
@@ -50,6 +52,14 @@ function ChatBot() {
       <div className='ai-user-text'>
         {aiUserText.map((each,i)=>(<div className={each.type==="user"?"user":"ai"} key={i}>{each.message}</div>))}
       
+      {/* loading */}
+      {
+        loading&&<div className='ai loading-dots'>
+          <span></span>
+          <span></span>
+          <span></span>
+          </div>
+      }
       <div ref={chatEndRef}></div>
 
      
