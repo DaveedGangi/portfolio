@@ -11,6 +11,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
     { name: "React", icon: "fab fa-react", link: "https://reactjs.org/docs/getting-started.html" },
     { name: "Node.js", icon: "fab fa-node", link: "https://nodejs.org/en/docs" },
     { name: "Python", icon: "fab fa-python", link: "https://docs.python.org/3/" },
+    { name: "FastAPI", icon: "fas fa-bolt", link: "https://fastapi.tiangolo.com/" },
+    { name: "C#", icon: "fas fa-code", link: "https://learn.microsoft.com/en-us/dotnet/csharp/" },
     { name: "SQL", icon: "fas fa-database", link: "https://www.w3schools.com/sql/" },
     { name: "MongoDB", icon: "fab fa-envira", link: "https://www.mongodb.com/docs/" }
   ];
